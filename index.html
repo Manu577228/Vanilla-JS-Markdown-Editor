@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Markdown Editor</h1>
+      </header>
+      <main>
+        <section class="editor-section">
+          <textarea
+            id="markdown-input"
+            placeholder="Type your markdown here..."
+          ></textarea>
+        </section>
+        <section class="preview-section">
+          <div id="markdown-preview"></div>
+        </section>
+      </main>
+      <footer>
+        <p>
+          Markdown Editor by
+          <a
+            href="https://youtube.com/@code-with-Bharadwaj"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Bharadwaj</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.0/marked.min.js"></script>
+  </body>
+</html>
